@@ -1,0 +1,16 @@
+{
+  "properties": [
+    {
+      "name": "app.default-admin.username",
+      "type": "java.lang.String",
+      "description": "Username của tài khoản LOCAL_ADMIN mặc định được tạo khi khởi động.",
+      "defaultValue": "localadmin"
+    },
+    {
+      "name": "app.default-admin.password",
+      "type": "java.lang.String",
+      "description": "Mật khẩu của tài khoản LOCAL_ADMIN mặc định (sẽ được mã hóa BCrypt).",
+      "defaultValue": "Admin@123456"
+    }
+  ]
+}
